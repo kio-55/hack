@@ -1,0 +1,26 @@
+.map {
+  height: 70vh;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 7px;
+  border: 1px #d2d2d2 solid;
+  justify-content: space-between;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  background-color: #d2d2d2;
+  border-radius: 50%;
+}

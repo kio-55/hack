@@ -1,0 +1,21 @@
+.item {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px #d2d2d2 solid;
+  border-radius: 5px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.partners {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-sizing: border-box;
+  padding: 0 15px;
+
+  max-height: 70vh;
+  overflow: scroll;
+}
